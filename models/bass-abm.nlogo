@@ -739,7 +739,7 @@ NetLogo 6.0.1
 @#$#@#$#@
 @#$#@#$#@
 <experiments>
-  <experiment name="Mean Degree Experiment" repetitions="100" runMetricsEveryStep="true">
+  <experiment name="Mean Degree Experiment" repetitions="10" runMetricsEveryStep="true">
     <setup>setup</setup>
     <go>go</go>
     <metric>count turtles with [adopted?]</metric>
