@@ -122,11 +122,11 @@ The "Measure runs using these reporters:" text box is where we enter the quantit
 
 Recalling that ``adopted?`` is a boolean that is false if the agent has not adopted and true if the agent has, this will count the number of adopted who have adopted at each time point.
 
-Click OK to close out the dialog box. Then click Run. Make sure that Table Output is selected, and click OK. Use the provided file name, and save the file in the GitHub folder ``sfinsc-day2``.
+Click OK to close out the dialog box. Then click Run. Make sure that Table Output is selected, and click OK. Use the provided file name, and save the file in the GitHub folder ``sfinsc-day2-master``.
 
 > **Explore:** Open ``bass-abm Mean Degree Experiment-table.csv`` in Sublime Text. What is the layout of this file? Which column contains the number of agents who have adopted at a given time step? What do you notice about the ordering of the trials?
 
-> **Explore:** Open RStudio, and change the working directory to ``sfinsc-day2`` on your machine. Run the ``behavior-space-script-aggregate_runs.R`` script to analyze the BehaviorSpace experiments. 
+> **Explore:** Open RStudio, and change the working directory to ``sfinsc-day2-master`` on your machine. Run the ``behavior-space-script-aggregate_runs.R`` script to analyze the BehaviorSpace experiments. 
 
 > **Pointer:** For BehaviorSpace file you analyze, you will only be changing the assignments to ``bs.data`` and ``param.name``. Load ``bs.data`` using the path to the BehaviorSpace file, and set ``param.name`` to the name of the parameter you varied in the BehaviorSpace experiment.
 
@@ -134,7 +134,7 @@ Click OK to close out the dialog box. Then click Run. Make sure that Table Outpu
 
 > **Hint:** You may also want to change ``xlim.use``, which controls the horizontal limits for the plot, to zoom in / zoom out.
 
-> **Explore:** Open RStudio, and change the working directory to ``sfinsc-day2`` on your machine. Run the ``behavior-space-script-aggregate_runs.R`` script to analyze the BehaviorSpace experiments. 
+> **Explore:** Open RStudio, and change the working directory to ``sfinsc-day2-master`` on your machine. Run the ``behavior-space-script-aggregate_runs.R`` script to analyze the BehaviorSpace experiments. 
 
 ### Bass
 
