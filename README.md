@@ -92,7 +92,7 @@ except now we are considering how the central agent (colored orange to indicate 
 <img src="https://raw.githubusercontent.com/ddarmon/sfinsc-day2/master/graphics/ic-schematic-outcomes.png">
 </p>
 
-After each of the agents has had a chance to spread the adoption, 
+After each of the agents has had a chance to spread the adoption, the unadopted agents will adopt with a probability dictated by the advertising effect.
 
 Let's take a look at the model in NetLogo. Open `ic-abm.nlogo` in the `models` directory of this page.
 
